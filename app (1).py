@@ -4,10 +4,10 @@ import numpy as np
 import pickle
 
 # Load the model
-clf = pickle.load(open("cloud_avinash_model.pkl","rb"))
+clf = pickle.load(open("titanic_model.pkl","rb"))
 
 def predict(data):
-    clf = pickle.load(open("cloud_avinash_model.pkl","rb"))
+    clf = pickle.load(open("titanic_model.pkl","rb"))
     return clf.predict(data)
 
 
@@ -37,4 +37,4 @@ if st.button("Predict Survied Or Not "):
         np.array([[age,fare,fs,pc,bc,1,1,1]]))
     st.text(result[0])
 
-st.markdown("Developed By Avinash Pawar at NIELIT Daman")
+st.markdown("Developed By Nishant Sawaimoon at NIELIT Daman")
