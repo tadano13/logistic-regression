@@ -34,8 +34,8 @@ This repository contains code and files for building a logistic regression model
 To run the notebook:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/logistic-regression-titanic.git
-   cd logistic-regression-titanic
+   git clone https://github.com/tadano13/logisticregg
+   cd logisticregg
    ```
 2. Install Dependencies:
    ```
