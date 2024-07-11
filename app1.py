@@ -50,5 +50,7 @@ else:
 # Prediction button
 if st.button("Predict Survival"):
     result = clf.predict(np.array([[age,fare,fs,pc,boarding,1,1,1]]))
-    st.text(result[0])
+    print(f"The Survival Rate is {st.text(result[0])}")
+
+print("This model Was made by Nishant Doma Sawaimoon at NIELT Daman")
    
