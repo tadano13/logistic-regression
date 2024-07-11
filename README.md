@@ -5,7 +5,7 @@ This repository contains code and files for building a logistic regression model
 ## Files
 
 - `titanic_train.csv`: The dataset used for training the model.
-- `Logistic_Regression.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, model training, and evaluation.
+- `logistic_regression.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, model training, and evaluation.
 
 ## Libraries Used
 
