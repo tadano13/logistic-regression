@@ -6,6 +6,8 @@ This repository contains code and files for building a logistic regression model
 
 - `titanic_train.csv`: The dataset used for training the model.
 - `logistic_regression.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, model training, and evaluation.
+- `app1.py`: This is the python model deployed on streamlit which gives output of no. of survivers by filtering conditions.
+- `link`: https://logisticregg-3xtv8felhjd2joz4bkdsao.streamlit.app 
 
 ## Libraries Used
 
